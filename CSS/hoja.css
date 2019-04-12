@@ -1,0 +1,52 @@
+
+body{
+    font-size: 16px;
+    background-color:#D8D8D8;
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    align-content: center;
+}
+a{
+    text-decoration: none;
+    border: 1px solid #000000;
+    color: #000000;
+    padding: 20px;
+
+}
+a:hover{
+    border-color:#FFFFFF;
+    color:#FFFFFF;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.titulo{
+    display: flex;
+}
+h1{
+    font-size: 22px;
+}
+.perfil{
+    background-color:#81DAF5;
+    display: flex;
+    justify-content:center;
+    align-content: center;
+}
+h2{
+  width:100%;
+  text-align: center;
+  background-color: #2E9AFE;
+  padding: 20px 0;
+}
+.contenedor{
+    display: flex;
+    justify-content: space-around;
+    align-content: center
+} 
+.justificado{
+    text-align: justify;
+}
